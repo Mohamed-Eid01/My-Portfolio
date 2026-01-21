@@ -39,7 +39,7 @@ const Hero = () => {
             <a
               href="/Mohamed-Eid-CV.pdf"
               download="Mohamed-Eid-CV.pdf"
-              className="glass py-2 px-5 rounded-xl flex items-center gap-2 text-secondary hover:text-white border border-purple-500/20 hover:border-purple-500/50 transition-all font-bold text-sm"
+              className="hidden sm:flex glass py-2 px-5 rounded-xl items-center gap-2 text-secondary hover:text-white border border-purple-500/20 hover:border-purple-500/50 transition-all font-bold text-sm"
             >
               <Download className="w-4 h-4" />
               CV

@@ -32,7 +32,7 @@ const Navbar = () => {
           }}
         >
           <div className="w-10 h-10 bg-gradient-to-br from-purple-500 to-pink-500 rounded-lg flex items-center justify-center text-white font-black text-xl group-hover:rotate-12 transition-transform">
-            M
+            ME
           </div>
           <p className='text-white text-[18px] font-bold cursor-pointer flex items-center'>
             Mohamed Eid
@@ -58,7 +58,15 @@ const Navbar = () => {
         </div>
 
         {/* Mobile Menu */}
-        <div className='sm:hidden flex flex-1 justify-end items-center'>
+        <div className='sm:hidden flex flex-1 justify-end items-center gap-3'>
+          <a
+            href="/Mohamed-Eid-CV.pdf"
+            download="Mohamed-Eid-CV.pdf"
+            className="glass py-2 px-4 rounded-xl flex items-center justify-center gap-2 text-secondary hover:text-white font-bold transition-all text-xs"
+          >
+            <Download className="w-4 h-4" />
+            CV
+          </a>
           <button 
             onClick={() => setToggle(!toggle)}
             className="w-10 h-10 glass rounded-lg flex items-center justify-center"
@@ -87,16 +95,6 @@ const Navbar = () => {
                 </li>
               ))}
             </ul>
-            <div className="pt-4 border-t border-white/10 w-full">
-              <a 
-                href="/Mohamed-Eid-CV.pdf" 
-                download="Mohamed-Eid-CV.pdf" 
-                className="w-full glass py-3 px-6 rounded-xl flex items-center justify-center gap-2 text-secondary hover:text-white font-bold transition-all text-sm"
-              >
-                <Download className="w-5 h-5" />
-                Download CV
-              </a>
-            </div>
           </div>
         </div>
       </div>
