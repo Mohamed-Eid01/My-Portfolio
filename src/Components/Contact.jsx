@@ -48,7 +48,7 @@ const Contact = () => {
               </h2>
             </div>
             <p className="text-secondary text-lg sm:text-xl max-w-md mx-auto lg:mx-0 leading-relaxed">
-              I'm ready to bring my **React** expertise and software foundation to your next big idea. 
+              I'm ready to bring my <strong>React</strong> expertise and software foundation to your next big idea. 
               Let's talk about how I can contribute to your team.
             </p>
           </div>

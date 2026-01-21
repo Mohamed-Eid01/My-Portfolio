@@ -32,7 +32,7 @@ export const skills = [
   },
   {
     name: "Vitest",
-    icon: "https://vitest.dev/logo-shadow.svg",
+    icon: "https://logo.svgcdn.com/logos/vitest.svg",
   },
   {
     name: "Vite",

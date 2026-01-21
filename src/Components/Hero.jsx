@@ -23,7 +23,7 @@ const Hero = () => {
               <span className="text-gradient">Mohamed Eid</span>
             </h1>
             <p className="text-lg sm:text-xl md:text-2xl text-secondary font-medium max-w-2xl mx-auto lg:mx-0 leading-relaxed">
-              Frontend Developer specializing in **React.js**. Designing
+              Frontend Developer specializing in <strong>React.js</strong>. Designing
               seamless, high-performance web experiences with clean code and
               robust architecture.
             </p>

@@ -14,12 +14,12 @@ const About = () => {
     },
     {
       title: "Quality Engineering",
-      icon: "https://img.icons8.com/color/80/checked-checkbox.png",
+      icon: "https://img.icons8.com/fluency/80/test-passed.png",
       desc: "Ensuring excellence through robust unit testing and architectural best practices."
     },
     {
       title: "3D Web Enthusiast",
-      icon: "https://img.icons8.com/color/80/3d-model.png",
+      icon: "https://img.icons8.com/fluency/80/3d-rotate.png",
       desc: "Passionate about creating immersive 3D experiences using Three.js and Vite."
     }
   ];
@@ -33,15 +33,15 @@ const About = () => {
 
       <div className="mt-8 flex flex-col gap-6 text-secondary text-lg max-w-4xl leading-relaxed">
         <p>
-          I'm a highly motivated **Frontend Developer** with a deep passion for building modern web applications using **React**. 
-          I pride myself on being a **fast learner** with a rock-solid foundation in software engineering principles.
+          I'm a highly motivated <strong>Frontend Developer</strong> with a deep passion for building modern web applications using <strong>React</strong>. 
+          I pride myself on being a <strong>fast learner</strong> with a rock-solid foundation in software engineering principles.
         </p>
         <p>
           I don't just write code; I design systems. Whether it's architecting clean component logic or implementing 
-          rigorous **unit testing with Vitest**, I ensure every feature is production-ready and scalable.
+          rigorous <strong>unit testing with Vitest</strong>, I ensure every feature is production-ready and scalable.
         </p>
         <p>
-          My focus is on creating **high-performance, interactive** interfaces, with a special interest in **3D web experiences**. 
+          My focus is on creating <strong>high-performance, interactive</strong> interfaces, with a special interest in <strong>3D web experiences</strong>. 
           I am always open to learning new frameworks and tools, driven by curiosity and a commitment to engineering excellence.
         </p>
       </div>
